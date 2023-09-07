@@ -9,9 +9,6 @@ document.addEventListener("DOMContentLoaded",async function ready(){
 	boardEl.addEventListener("click",onClickTile,false);
 	clearHighlightsBtn.addEventListener("click",clearHighlights,false);
 
-
-	// ********************************
-
 	function onClickTile(evt) {
 		var clickedEl = evt.target;
 
